@@ -1,7 +1,7 @@
 #
-# Copyright (C) 2021-2022 by Kayzyu@Github, < https://github.com/Kayzyu >.
+# Copyright (C) 2021-2022 by 5GVckyy@Github, < https://github.com/5GVckyy >.
 #
-# This file is part of < https://github.com/Kayzyu/KayXMusic > project,
+# This file is part of < https://github.com/5GVckyy/MonxxyXMusic > project,
 #
 # All rights reserved.
 #
