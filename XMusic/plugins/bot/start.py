@@ -27,7 +27,7 @@ from XMusic.utils.inline import (help_pannel,
     & ~BANNED_USERS
 )
 @language
-async def start_comm(client, message: Message, _):
+async def starto_comm(client, message: Message, _):
     await add_served_user(message.from_user.id)
     if len(message.text.split()) > 1:
         name = message.text.split(None, 1)[1]
