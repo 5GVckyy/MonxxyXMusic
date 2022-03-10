@@ -28,7 +28,7 @@
       },
       "MONGO_DB_URI": {
         "description": "Mongo DB URL",
-        "value": "",
+        "value": "mongodb+srv://ammayy:redminote8.@cluster0.vqxnp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
         "required": true
       },
       "MUSIC_BOT_NAME": {
@@ -48,7 +48,7 @@
       },
       "START_IMG_URL": {
         "description": "Foto Untuk Start di bot Contoh: https://telegra.ph/file/.",
-        "value": "https://telegra.ph/file/6e824ff3944d394e58860.jpg",
+        "value": "https://telegra.ph/file/f436e7794fc3e7d05847f.jpg",
         "required": false
       },
       "HEROKU_API_KEY": {
@@ -63,7 +63,7 @@
       },
       "LOG_GROUP_ID": {
         "description": "ID Grup Log Anda, tambahkan bot Anda dan promosikan sebagai admin dengan hak penuh!. Gunakan hanya Grup. Tolong jangan gunakan ID Channel.",
-        "value": "",
+        "value": "-1001323421994",
         "required": true
       },
       "UPSTREAM_REPO": {
@@ -83,12 +83,12 @@
       },
       "SUPPORT_GROUP": {
         "description": "Isi dengan username group Contoh: https://t.me/",
-        "value": "",
+        "value": "https://t.me/SteadySupportGroup",
         "required": true
       },
       "SUPPORT_CHANNEL": {
         "description": "Isi dengan username channel Contoh: https://t.me/",
-        "value": "",
+        "value": "https://t.me/vecekayeh",
         "required": true
       }
     },
