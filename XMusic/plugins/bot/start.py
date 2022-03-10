@@ -21,7 +21,7 @@ from XMusic.utils.inline import (help_pannel,
                                  
                                  
 @app.on_message(
-    filters.command(get_command("STARTO_COMMAND"))
+    filters.command(get_command("START_COMMAND"))
     & filters.private
     & ~filters.edited
     & ~BANNED_USERS
@@ -168,10 +168,10 @@ async def starto_comm(client, message: Message, _):
         except:
             OWNER = None
         out = private_panel(_, app.username)
-        if config.STARTO_IMG_URL:
+        if config.START_IMG_URL:
             try:
                 await message.reply_photo(
-                    photo=config.STARTO_IMG_URL,
+                    photo=config.START_IMG_URL,
                     caption=_["start_2"].format(
                         config.MUSIC_BOT_NAME
                     ),
@@ -197,7 +197,7 @@ async def starto_comm(client, message: Message, _):
 
 
 @app.on_message(
-    filters.command(get_command("STARTO_COMMAND"))
+    filters.command(get_command("START_COMMAND"))
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS
