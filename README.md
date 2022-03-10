@@ -1,6 +1,6 @@
  ## *Monxxy X Music*
 
- <p align="center"><img src="https://telegra.ph/file/4c77731a232ec4fff41cb.jpg">
+ <p align="center"><img src="https://telegra.ph/file/f436e7794fc3e7d05847f.jpg">
  </p>
  
 
