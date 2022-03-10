@@ -1,0 +1,113 @@
+{
+    "name": "Kay X Music",
+    "description": "Telegram Group Calls streaming bot dengan beberapa fitur berguna, ditulis dengan Python dengan Pyrogram dan Py-Tgcalls. Platform pendukung seperti Tautan Youtube, Spotify, Resso, AppleMusic, Soundcloud, dan M3u8.",
+    "repository": "https://github.com/Kayzyu/KayXMusic",
+    "logo": "https://telegra.ph/file/4c77731a232ec4fff41cb.jpg",
+    "keywords": ["python3", "telegram", "bot", "Kayzyu", "KayXMusic", "telegram-bot", "pyrogram"],
+    "stack": "container",
+    "env": {
+      "API_ID": {
+        "description": "Dapatkan Dari https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Dapatkan Dari https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "AUTO_LEAVING_ASSISTANT": {
+        "description": "Jika Anda ingin asisten Anda meninggalkan semua obrolan secara otomatis setelah beberapa waktu.",
+        "value": "True",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "Token Bot dari Botfather",
+        "value": "",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "Mongo DB URL",
+        "value": "",
+        "required": true
+      },
+      "MUSIC_BOT_NAME": {
+        "description": "Nama untuk Bot Musik Anda. Tolong jangan gunakan karakter ascii",
+        "value": "",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "ID pengguna dari pengguna yang ingin Anda tambahkan sebagai PEMILIK. Beberapa value harus dipisahkan dengan spasi.",
+        "value": "",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "Sesi String Pyrogram. Satu Asisten adalah Wajib.",
+        "value": "",
+        "required": true
+      },
+      "START_IMG_URL": {
+        "description": "Foto Untuk Start di bot Contoh: https://telegra.ph/file/.",
+        "value": "https://telegra.ph/file/6e824ff3944d394e58860.jpg",
+        "required": false
+      },
+      "HEROKU_API_KEY": {
+        "description": "API KEY akun Heroku Anda",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Nama app/bot heroku Anda, Samakan dengan nama paling atas",
+        "value": "",
+        "required": false
+      },
+      "LOG_GROUP_ID": {
+        "description": "ID Grup Log Anda, tambahkan bot Anda dan promosikan sebagai admin dengan hak penuh!. Gunakan hanya Grup. Tolong jangan gunakan ID Channel.",
+        "value": "",
+        "required": true
+      },
+      "UPSTREAM_REPO": {
+        "description": "Jika Anda tidak tahu ini, Biarkan apa adanya",
+        "value": "https://github.com/Kayzyu/KayXMusic",
+        "required": true
+      },
+      "UPSTREAM_BRANCH": {
+        "description": "Nama branch repo",
+        "value": "main",
+        "required": true
+      },
+      "DURATION_LIMIT": {
+       "description": "Durasi waktu pemutaran Contoh: 60",
+       "value": "",
+       "required": true
+      },
+      "SUPPORT_GROUP": {
+        "description": "Isi dengan username group Contoh: https://t.me/",
+        "value": "",
+        "required": true
+      },
+      "SUPPORT_CHANNEL": {
+        "description": "Isi dengan username channel Contoh: https://t.me/",
+        "value": "",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "free"
+          }
+      },
+      "stack": "container"
+  }
