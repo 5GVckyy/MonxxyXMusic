@@ -1,7 +1,16 @@
+#
+# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+#
+# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
+# and is released under the "GNU v3.0 License Agreement".
+# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
+#
+# All rights reserved.
+
 import sys
 
 from pyrogram import Client
-import pybase64
+
 import config
 
 from ..logging import LOGGER
@@ -44,16 +53,13 @@ class Userbot(Client):
         )
 
     async def start(self):
-        kyzug = str(pybase64.b64decode("S2F5enVTdXBwb3J0"))[2:14]
-        kyzuc = str(pybase64.b64decode("a2F5enVjaGFubmVs"))[2:14]
-        shbot = str(pybase64.b64decode("U2hhcmluZ1VzZXJib3Q="))[2:16]
         LOGGER(__name__).info(f"Starting Assistant Clients")
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat(kyzug)
-                await self.one.join_chat(kyzuc)
-                await self.one.join_chat(shbot)
+                await self.one.join_chat("TeamYukki")
+                await self.one.join_chat("TheYukki")
+                await self.one.join_chat("YukkiSupport")
             except:
                 pass
             assistants.append(1)
@@ -82,9 +88,9 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat(kyzug)
-                await self.two.join_chat(kyzuc)
-                await self.two.join_chat(shbot)
+                await self.two.join_chat("TeamYukki")
+                await self.two.join_chat("TheYukki")
+                await self.two.join_chat("YukkiSupport")
             except:
                 pass
             assistants.append(2)
@@ -113,9 +119,9 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat(kyzug)
-                await self.three.join_chat(kyzuc)
-                await self.three.join_chat(shbot)
+                await self.three.join_chat("TeamYukki")
+                await self.three.join_chat("TheYukki")
+                await self.three.join_chat("YukkiSupport")
             except:
                 pass
             assistants.append(3)
@@ -144,9 +150,9 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat(kyzug)
-                await self.four.join_chat(kyzuc)
-                await self.four.join_chat(shbot)
+                await self.four.join_chat("TeamYukki")
+                await self.four.join_chat("TheYukki")
+                await self.four.join_chat("YukkiSupport")
             except:
                 pass
             assistants.append(4)
@@ -175,9 +181,9 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat(kyzug)
-                await self.five.join_chat(kyzuc)
-                await self.five.join_chat(shbot)
+                await self.five.join_chat("TeamYukki")
+                await self.five.join_chat("TheYukki")
+                await self.five.join_chat("YukkiSupport")
             except:
                 pass
             assistants.append(5)
