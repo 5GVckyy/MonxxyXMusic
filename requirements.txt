@@ -14,7 +14,6 @@ py-tgcalls
 pykeyboard
 pyrogram
 python-dotenv
-pybase64
 pyyaml==5.4
 requests
 speedtest-cli
