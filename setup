@@ -1,4 +1,4 @@
-### Monxxy X Music Installer
+### Kay X Music Installer
 
 cgreen='\033[0;32m'
 cyellow='\033[0;33m'
@@ -25,7 +25,7 @@ node(){
 
 
 repo(){
-	git clone https://github.com/5GVckyy/MonxxyXMusic &&  cd MonxxyXMusic
+	git clone https://github.com/Kayzyu/KayXMusic &&  cd KayXMusic
 }
 
 
