@@ -1,10 +1,10 @@
- ## *Kay X Music*
+ ## *Monxxy X Music*
 
  <p align="center"><img src="https://telegra.ph/file/4c77731a232ec4fff41cb.jpg">
  </p>
  
 
- [Kay X Music](https://github.com/Kayzyu/KayXMusic) Bot streaming Telegram Group Calls dengan beberapa fitur berguna, ditulis dengan Python dengan Pyrogram dan Py-Tgcalls.  Platform pendukung seperti Tautan Youtube, Spotify, Resso, AppleMusic, Soundcloud, dan M3u8.
+ [Monxxy X Music](https://github.com/5GVckyy/MonxxyXMusic) Bot streaming Telegram Group Calls dengan beberapa fitur berguna, ditulis dengan Python dengan Pyrogram dan Py-Tgcalls.  Platform pendukung seperti Tautan Youtube, Spotify, Resso, AppleMusic, Soundcloud, dan M3u8.
 
  * Ditulis dari awal, membuatnya stabil dan lebih sedikit crash.
  * Thumbnail, font, dan gambar yang menarik, menjadikan pengalaman lebih ramah pengguna dan interaktif.
@@ -15,19 +15,19 @@
 
  # Umum
 
- Berikut adalah ikhtisar tingkat tinggi singkat dari Kay X Music:
+ Berikut adalah ikhtisar tingkat tinggi singkat dari Monxxy X Music:
 
  Proyek ini didasarkan pada [Pyrogram](https://github.com/pyrogram) dan [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls) .  Pyrogram adalah framework MTProto API yang modern, elegan, dan asinkron.
 
- * Untuk database, Kayzyu menggunakan MongoDB untuk menyimpan data dan kunci.  [MongoDB](https://www.mongodb.com/) adalah database dokumen dengan skalabilitas dan fleksibilitas yang Anda inginkan dengan kueri dan pengindeksan yang Anda butuhkan.
+ * Untuk database, Vckyy menggunakan MongoDB untuk menyimpan data dan kunci.  [MongoDB](https://www.mongodb.com/) adalah database dokumen dengan skalabilitas dan fleksibilitas yang Anda inginkan dengan kueri dan pengindeksan yang Anda butuhkan.
  * Proyek menggunakan scrapping web bs4 untuk mendapatkan banyak detail platform.  [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) adalah library Python untuk menarik data dari file HTML dan XML.
  * Proyek menggunakan font [Poppins](../assets/font.ttf) sebagai font utama untuk thumbnail.
  * Proyek menggunakan gambar dan ikon menarik yang bisa Anda dapatkan di direktori [assets](../assets/).
 
- ### Sebelum menggunakan Kay X Music , harap lihat [semua konfigurasi yang tersedia](../config/README.md) , juga periksa [semua perintah yang tersedia](../strings/command.yml) dari  proyek.
+ ### Sebelum menggunakan Monxxy X Music , harap lihat [semua konfigurasi yang tersedia](../config/README.md) , juga periksa [semua perintah yang tersedia](../strings/command.yml) dari  proyek.
 
- > Jika Anda ingin mulai bekerja dengan Kay X Music, Anda dapat melakukan fork atau mengimpor repo.
- > Jika Anda ingin berbicara dengan kami, bergabunglah dengan kami di [Grup Telegram](https://t.me/KayzuSupport) kami
+ > Jika Anda ingin mulai bekerja dengan Monxxy X Music, Anda dapat melakukan fork atau mengimpor repo.
+ > Jika Anda ingin berbicara dengan kami, bergabunglah dengan kami di [Grup Telegram](https://t.me/SteadySupportSupport) kami
 
  ## Prasyarat
 
@@ -47,9 +47,9 @@
 
  ## Deploy Heroku
 
- Klik tombol di bawah untuk Deploy KayXMusic di Heroku!
+ Klik tombol di bawah untuk Deploy MonxxyXMusic di Heroku!
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Kayzyu/KayXMusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=for-the-badge&logo=heroku" width="250" height="40.00" /></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/5GVckyy/MonxxyXMusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=for-the-badge&logo=heroku" width="250" height="40.00" /></a></p>
 
 <p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=S2F5enl1L0theVhNdXNpYyBtYWlu"><img src="https://img.shields.io/badge/Deploy%20Via%20Telegram-blue?style=for-the-badge&logo=telegram" width="250""/</a>  </p>
 
@@ -70,27 +70,27 @@
  - Klik Tombol Lainnya yang ada di sudut kanan atas.
  - Klik tombol Lihat Log dari menu tarik-turun.
  - Anda memeriksa log Anda di sana!
- - Klik tombol simpan di bagian bawah untuk menyimpan log Anda dan meneruskannya kepada kami di [KayzuSupport](https://t.me/KayzuSupport) jika Anda menghadapi masalah
+ - Klik tombol simpan di bagian bawah untuk menyimpan log Anda dan meneruskannya kepada kami di [SteadySupport](https://t.me/SteadySupportGroup) jika Anda menghadapi masalah
 
  
  ## Support
 
  Hubungi pengelola di salah satu tempat berikut:
 
- - [GitHub](https://github.com/Kayzyu/KayXMusic)
- - Opsi kontak yang tercantum di [profil GitHub ini](https://github.com/Kayzyu)
- - [Groups](https://t.me/KayzuSupport)
- - [Channel](https://t.me/kayzuchannel)
+ - [GitHub](https://github.com/5GVckyy/MonxxyXMusic)
+ - Opsi kontak yang tercantum di [profil GitHub ini](https://github.com/5GVckyy)
+ - [Groups](https://t.me/SteadySupportGroup)
+ - [Channel](https://t.me/vecekayeh)
 
- Jika Anda ingin mengucapkan terima kasih atau/dan mendukung pengembangan aktif KayXMusic:
+ Jika Anda ingin mengucapkan terima kasih atau/dan mendukung pengembangan aktif MonxxyXMusic:
 
- - Hubungi [Kay-Ex](https://t.me/Kayzuuuuu) 
+ - Hubungi [Vckyy](https://t.me/vckyyclone) 
 
  ## Credits
 
  Pertama, terima kasih telah meluangkan waktu untuk berkontribusi!  Kontribusilah yang membuat komunitas open-source menjadi tempat yang luar biasa untuk belajar, menginspirasi, dan berkreasi.  Setiap kontribusi yang Anda buat akan bermanfaat bagi orang lain dan sangat dihargai.
 
- Terima kasih khusus untuk proyek/orang luar biasa ini yang/yang membantu memberi kekuatan pada Kay X Music :
+ Terima kasih khusus untuk proyek/orang luar biasa ini yang/yang membantu memberi kekuatan pada Monxxy X Music :
  - [TeamYukki](https://github.com/TeamYukki)
  - [Pyrogram](https://github.com/pyrogram/pyrogram)
  - [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
