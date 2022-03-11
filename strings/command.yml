@@ -3,7 +3,7 @@
 # Bot Commands
 PING_COMMAND : ["pingo"]
 START_COMMAND : ["starto"]
-HELP_COMMAND : ["help"]
+HELP_COMMAND : ["helpo"]
 SETTINGS_COMMAND : ["settings", "setting"]
 RELOAD_COMMAND : ["admincache", "reload"]
 STATS_COMMAND : ["stats"]
