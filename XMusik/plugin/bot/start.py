@@ -31,7 +31,7 @@ async def starto_comm(client, message: Message, _):
     await add_served_user(message.from_user.id)
     if len(message.text.split()) > 1:
         name = message.text.split(None, 1)[1]
-        if name[0:4] == "help":
+        if name[0:4] == "helpo":
             keyboard = help_pannel(_)
             return await message.reply_text(
                 _["help_1"], reply_markup=keyboard
