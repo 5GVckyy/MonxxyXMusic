@@ -4,7 +4,7 @@
  </p>
  
 
- [Monxxy X Music](https://github.com/5GVckyy/MonxxyXMusic) Bot streaming Telegram Group Calls dengan beberapa fitur berguna, ditulis dengan Python dengan Pyrogram dan Py-Tgcalls.  Platform pendukung seperti Tautan Youtube, Spotify, Resso, AppleMusic, Soundcloud, dan M3u8.
+ [Monxxy](https://github.com/5GVckyy/MonxxyXMusic) Bot streaming Telegram Group Calls dengan beberapa fitur berguna, ditulis dengan Python dengan Pyrogram dan Py-Tgcalls.  Platform pendukung seperti Tautan Youtube, Spotify, Resso, AppleMusic, Soundcloud, dan M3u8.
 
  * Ditulis dari awal, membuatnya stabil dan lebih sedikit crash.
  * Thumbnail, font, dan gambar yang menarik, menjadikan pengalaman lebih ramah pengguna dan interaktif.
