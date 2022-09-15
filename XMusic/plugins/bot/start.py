@@ -16,7 +16,7 @@ from XMusic.plugins.sudo.sudoers import sudoers_list
 from XMusic.utils.database import (add_served_chat, add_served_user,
                                    get_assistant, get_lang, get_userss,
                                    is_on_off, is_served_private_chat)
-from XMusic.utils.decorators.language import LanguageStart
+from XMusic.utils.decorators.language import language
 from XMusic.utils.inline import (help_pannel, 
                                  private_panel, 
                                  start_pannel)
@@ -31,7 +31,7 @@ loop = asyncio.get_running_loop()
     & ~filters.edited
     & ~BANNED_USERS
 )
-@LanguageStart
+@language
 async def start_comm(client, message: Message, _):
     await add_served_user(message.from_user.id)
     if len(message.text.split()) > 1:
@@ -217,7 +217,7 @@ async def start_comm(client, message: Message, _):
     & ~filters.edited
     & ~BANNED_USERS
 )
-@LanguageStart
+@language
 async def testbot(client, message: Message, _):
     out = start_pannel(_)
     return await message.reply_text(
